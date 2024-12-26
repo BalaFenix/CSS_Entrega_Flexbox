@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="primer trabajo, junior, IT, empleo" />
+    <meta name="author" content="Lara Sanchez Sanchez" />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adopta un Junior</title>
+  </head>
+  <body>
+    <main>
+      <section id="hero">
+        <div class="informacion">
+          <h1>Adopta un Junior</h1>
+          <p>
+            Adopta un Junior es un proyecto que conecta empresas en busca de
+            talento emergente con jóvenes recién graduados que desean dar sus
+            primeros pasos en el mundo laboral. A través de nuestra plataforma,
+            las empresas pueden encontrar perfiles frescos y motivados, mientras
+            que los juniors tienen la oportunidad de destacar su potencial y
+            habilidades. ¡Impulsemos juntos las carreras del mañana!
+          </p>
+        </div>
+        <div class="image">
+          <img
+            src="./assets/img_junior.png"
+            alt="persona frente a un ordenador"
+            title="imagen principal de la pagina"
+          />
+        </div>
+      </section>
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Proyecto</a></li>
+          <li><a href="#"> Registrate</a></li>
+          <li><a href="#"> Contacta con nosotros</a></li>
+        </ul>
+      </nav>
+    </main>
+    <section id="proyecto">
+      <h2>Proyecto adopta un Junior</h2>
+      <p>
+        Adopta un Junior nace con la misión de resolver una problemática común:
+        la dificultad que enfrentan quienes acaban de finalizar un grado
+        universitario o formación profesional para acceder a su primer empleo en
+        el mundo IT. En un sector donde a menudo se exige experiencia previa de
+        varios años, queremos cambiar las reglas del juego. Por eso, nos hemos
+        unido a empresas comprometidas con valorar la calidad humana y el
+        talento de las personas recién formadas, sin importar su sexo, etnia,
+        religión o cualquier otra condición. Creemos en dar oportunidades reales
+        para construir el futuro.
+      </p>
+      <p>
+        ¿Te gustaría conocer qué empresas colaboran con nosotros? Accede
+        <a href="#" target="_blank" rel="empresas">aquí</a>
+      </p>
+    </section>
+    <section id="Registrate">
+      <h2>Estas a un paso de empezar el cambio ¡Registrate!</h2>
+      <form
+        method="POST"
+        enctype="application/x-www-form-urlencoded"
+        target="_blank"
+      >
+        <label for="name"> Nombre: </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nombre"
+          required
+        />
+        <label for="email"> Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+    <section id="contacto">
+      <h2>Contacta con nosotros</h2>
+      <form
+        method="POST"
+        enctype="application/x-www-form-urlencoded"
+        target="_blank"
+      >
+        <label for="name"> Nombre: </label>
+        <input
+          type="text"
+          id="nombre"
+          name="name"
+          placeholder="Nombre"
+          required
+        />
+        <label for="email"> Correo electrónico:</label>
+        <input type="email" id="correo" name="email" required />
+        <label> Comentarios:</label>
+        <textarea name="comentarios" rows="10" cols="100"></textarea>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+    <footer>
+      <p>&copy; Adopta un Junior 2024 todos los derechos reservados</p>
+      <nav>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#"> X </a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
