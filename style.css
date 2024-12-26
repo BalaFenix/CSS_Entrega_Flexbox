@@ -75,8 +75,7 @@ section {
 #proyecto,
 #Registrate,
 #contacto {
-  background-color: #a7d0ee; /* Azul claro */
-  border-radius: 10px;
+  background-color: #a7d0ee; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,11 +109,11 @@ form input[type='submit']:hover {
   background-color: #0d47a1;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #3a6cb8; /* Azul oscuro */
+  background-color: #3a6cb8; 
   color: white;
 }
 
