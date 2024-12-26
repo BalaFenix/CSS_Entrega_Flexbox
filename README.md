@@ -1,2 +1,2 @@
 # CSS_Entrega_Flexbox
-Uso de flexbox en CSS
+Creación de página responsive y maquetado con CSS.
