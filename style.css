@@ -75,10 +75,32 @@ section {
 #proyecto,
 #Registrate,
 #contacto {
-  background-color: #a7d0ee; 
+  background-color: #a7d0ee;
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.empresas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.empresas > img {
+  flex-basis: 350px;
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -109,11 +131,10 @@ form input[type='submit']:hover {
   background-color: #0d47a1;
 }
 
-
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #3a6cb8; 
+  background-color: #3a6cb8;
   color: white;
 }
 
